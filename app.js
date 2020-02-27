@@ -78,4 +78,5 @@ app.get("/contact", function(req, res){
 app.listen(3000, function() {
   console.log("Server started successfully on port 3000");
   console.log("Head over to localhost:3000 on your browser to checkout your app.js in actions!");
+  console.log("Head over to /compose to add a new post and test database");
 });
